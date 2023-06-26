@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NotoSans-Bold';
+  src: url(./font/NotoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'NotoSans-Regular';
+  src: url(./font/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'NanumGothic-Bold';
+  src: url(./font/NanumGothic-Bold.ttf);
+}
