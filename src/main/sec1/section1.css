@@ -1,0 +1,126 @@
+#section1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#section1 .title {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#section1 .title img {
+  width: 20px;
+  height: 100%;
+}
+
+#section1 .title .intro {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: 'NanumGothic-Bold';
+  font-weight: 600;
+}
+
+#section1 .title .more {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  font-size: 12px;
+  color: rgb(58, 122, 101);
+}
+
+#section1 .player-list {
+  margin-top: 15px;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+#section1 .player-list .card {
+  position: relative;
+  display: inline-block;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#section1 .player-list .card:last-child {
+  margin-right: 0;
+}
+
+#section1 .player-list .card img {
+  width: 170px;
+}
+
+#section1 .player-list .card .card-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(/public/images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+#section1 .player-list .card .info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: 'NanumGothic-Bold';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#section1 .player-list .card .info span:first-child {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+#section1 .club-board{
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#section1 .club-board .card{
+  display: inline-block;
+  position: relative;
+  width: 180px;
+  height: 75px;
+  border: 1px solid rgb(191, 191, 191);
+  border-radius: 5px;
+}
+
+#section1 .club-board .card:nth-child(n+3){
+  margin-top: 12px;
+}
+
+#section1 .club-board .card .content{
+  font-family: 'NanumGothic-Bold';
+  padding: 10px;
+}
+
+#section1 .club-board .card .content .title{
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+#section1 .club-board .card .content .sub {
+  font-size: 11px;
+  color: rgb(221, 221, 221);
+}
+
+#section1 .club-board .card .icon{
+  position: absolute;
+  width: 60px;
+  height: 65px;
+  bottom: 0;
+  right: 0;
+}
+
+#section1 .club-board .card .icon img{
+  height: 100%;
+}

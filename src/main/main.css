@@ -1,0 +1,42 @@
+
+
+.top .top-logo{
+  position: relative;
+  width: 100%;
+  margin: 35px 0;
+  z-index: 1;
+  text-align: center;
+}
+.top .logo-text{
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+}
+.top .logo-text img {
+  width: 65%;
+  z-index: 1;
+}
+
+.top .bell {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+}
+
+.top .bell img{
+  width: 20px;
+  height: 20px;
+}
+
+.top .logo-bg {
+  position: absolute;
+  background-color: red;
+  top: -165px;
+  width: 100%;
+  height: 300px;
+  line-height: 150px;
+  border-radius: 50%;
+  z-index: -1;
+}
+

@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
 }
 
 code {
@@ -25,4 +27,19 @@ code {
 @font-face {
   font-family: 'NanumGothic-Bold';
   src: url(./font/NanumGothic-Bold.ttf);
+}
+
+.App{
+  @media (min-width:720px) {
+    display: none;
+  }
+}
+
+.matchwidth{
+  width: 1020px;
+  margin: 0 auto;
+  line-height: 300px;
+  @media (max-width:720px) {
+    display: none;
+  }
 }
