@@ -1,6 +1,7 @@
 import './section1.css'
-import Club from "./club";
-import PlayerList from "./player";
+import ClubTab from "./club";
+import PlayerListTab from "./player";
+import EventTab from './event';
 
 
 function Section1(){
@@ -11,8 +12,9 @@ function Section1(){
         <span className='intro'>주목할 만한 AI페퍼스 선수</span>
         <span className='more'>더 알아보기 {`>`}</span>
       </div>
-      <PlayerList />
-      <Club />
+      <PlayerListTab />
+      <ClubTab />
+      <EventTab />
     </div>
   )
 }

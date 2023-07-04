@@ -1,5 +1,5 @@
 
-function Club(){
+function ClubTab(){
 
   return(
     <div className="club-board">
@@ -59,4 +59,4 @@ function Club(){
   )
 }
 
-export default Club;
+export default ClubTab;

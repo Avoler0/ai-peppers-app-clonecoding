@@ -1,0 +1,48 @@
+#section2 {
+  margin: 10px;
+}
+
+#section2 .title {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+#section2 .title img {
+  width: 20px;
+  height: 100%;
+}
+
+#section2 .title .intro {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: 'NanumGothic-Bold';
+  font-weight: bold;
+}
+
+#section2 .media-wrap {
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  overflow-x: scroll;
+}
+
+#section2 .media-wrap .card{
+  margin-right: 10px;
+  
+}
+
+#section2 .media-wrap .card:last-child{
+  margin: 0;
+}
+
+#section2 .media-wrap .card .thumbnail img{
+  width: 275px;
+  border-radius: 10px;
+}
+
+#section2 .media-wrap .card .media-title{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

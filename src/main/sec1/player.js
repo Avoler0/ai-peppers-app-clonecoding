@@ -1,6 +1,6 @@
 
 
-function PlayerList(){
+function PlayerListTab(){
   return(
     <div className='player-list'>
       <div className='card'>
@@ -31,4 +31,4 @@ function PlayerList(){
   )
 }
 
-export default PlayerList;
+export default PlayerListTab;

@@ -1,5 +1,6 @@
 import './main.css'
-import Section1 from './sec1/sec1';
+import Section1 from './sec1/section1';
+import Section2 from './sec2/section2';
 
 function Main(){
 
@@ -18,6 +19,7 @@ function Main(){
         <div className='logo-bg' />
       </div>
       <Section1 />
+      <Section2 />
     </div>
   )
 }
